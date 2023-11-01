@@ -1,0 +1,418 @@
+body.pdf-body {
+    padding: 5px 4%;
+}
+
+.pdf-left {
+    float: left;
+}
+
+.pdf-right {
+    float: right;
+}
+
+.pdf-center {
+    text-align: center;
+}
+
+.pdf-color-black {
+    color: #000000;
+}
+
+/* logo */
+img.pdf-logo {
+    width: 10%;
+    margin-bottom: 5px;
+}
+
+/* header */
+.pdf-header h1,
+h2,
+h3,
+h4,
+p {
+    color: #08107d;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.pdf-header {
+    h2,
+    h3 {
+        font-size: 16px !important;
+    }
+}
+
+.pdf-header p {
+    font-size: 17px;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 10px !important;
+}
+
+/* info */
+.pdf-invoice-info {
+    font-weight: bold;
+    color: #08107d;
+    margin: 30px 0px;
+    width: 100%;
+    height: 10px;
+}
+
+.pdf-invoice-info span.pdf-span-invoice {
+    font-size: 14px;
+    float: left;
+}
+
+.pdf-invoice-info span.pdf-span-date {
+    font-size: 14px;
+    float: right;
+}
+
+/* invoice */
+.pdf-invoice-to-info {
+    font-weight: bold;
+    color: #404040;
+    margin: 30px 0px;
+    width: 100%;
+    height: 10px;
+}
+
+.pdf-invoice-to-info span.pdf-color-black {
+    font-size: 14px;
+}
+
+.pdf-invoice-to-info span.pdf-span-invoice {
+    margin-top: 2px;
+    display: block;
+    font-weight: 200;
+    font-size: 13px;
+}
+
+.pdf-invoice-to-info span.pdf-invitation-span {
+    margin-top: 15px;
+}
+
+/* Invoice Table */
+.pdf-inner-table-invoice {
+    background-color: #e1efd8;
+    border-top: #08117a 3px solid;
+    border-bottom: #08117a 3px solid;
+    width: 100%;
+    height: 20px;
+    margin: 10px 0px;
+}
+
+.pdf-inner-table-invoice thead tr th {
+    padding: 0 0.5%;
+}
+
+.pdf-inner-table-invoice thead tr th span {
+    font-size: 11px !important;
+    font-weight: bold;
+    color: #08107d;
+}
+
+.pdf-inner-table-invoice-body {
+    font-weight: 400;
+    color: #000;
+    margin: 1px 0px 5%;
+    width: 100%;
+}
+
+.pdf-inner-table-invoice-body tbody tr td {
+    padding: 0 0.5%;
+}
+
+.pdf-inner-table-invoice-body tbody tr td span.pdf-inner-span {
+    font-size: 11px !important;
+    font-weight: 200;
+}
+
+.pdf-inner-table-invoice-footer {
+    border-top: #08117a 2px solid;
+    border-bottom: #08117a 2px solid;
+    font-weight: 400;
+    color: #08117a;
+    margin: 1px 0px 3%;
+    width: 100%;
+}
+
+.pdf-inner-table-invoice-footer tfoot tr td {
+    padding: 0 0.5%;
+}
+
+.pdf-inner-table-invoice-footer tfoot tr td span {
+    font-size: 11px !important;
+    font-weight: bold;
+    color: #08117a;
+}
+
+.pdf-invoice-to-bank {
+    font-weight: 200;
+    color: #404040;
+    margin: 20px 0.5%;
+    width: 100%;
+}
+
+.pdf-invoice-to-bank tbody tr td span {
+    font-size: 10px !important;
+}
+
+div.pdf-inner-bank-title-payment {
+    margin: 2px 0.5% 10px;
+    display: block;
+    font-weight: bold;
+    width: 100%;
+}
+
+div.pdf-inner-bank-title-payment h2 {
+    display: block;
+    color: #08117a;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+div.pdf-inner-bank-title {
+    display: block;
+    font-weight: bold;
+    float: left;
+    margin: 2px 0.5% 10px;
+    width: 100%;
+}
+
+div.pdf-inner-bank-title h3 {
+    display: block;
+    color: #000;
+    font-size: 11px;
+}
+
+div.pdf-inner-bank-title h3 span {
+    text-decoration: underline;
+}
+
+.pdf-invoice-to-bank tbody tr td.pdf-left {
+    margin-left: 3%;
+}
+
+.pdf-invoice-to-bank-last tbody tr td.pdf-left {
+    margin-left: 5%;
+}
+
+table.pdf-invoice-to-bank span.pdf-span-invoice {
+    margin-top: 2px;
+    display: block;
+    font-weight: 200;
+}
+
+.pdf-invoice-to-bank span.pdf-span-invoice span {
+    margin-left: 10%;
+}
+
+.pdf-online-payment {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.pdf-online-payment .pdf-inner-body-p {
+    margin-top: 40px !important;
+    margin-bottom: 10px !important;
+    font-size: 12px !important;
+}
+
+.pdf-invoice-inner-body-p {
+    margin-top: 10px !important;
+    font-size: 12px !important;
+}
+
+.pdf-invoice-inner-body-p span {
+    display: block;
+    color: #5d98d7;
+    text-decoration: underline;
+}
+
+/* Main Title */
+.pdf-invoice-title {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.pdf-invoice-title h2 {
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
+    color: #08107d;
+    margin: 0px;
+    width: 100%;
+}
+
+.pdf-invoice-title-m {
+    margin-top: 100px;
+}
+
+.pdf-invitation-div h2 {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none !important;
+}
+
+.pdf-invitation-div h2 span {
+    color: #000000;
+}
+
+.pdf-invitation-footer-div {
+    margin: 50px 0 10px;
+    width: 100%;
+}
+
+.pdf-invitation-footer-div h2 {
+    color: #f70105;
+    text-transform: uppercase;
+}
+
+.pdf-invitation-footer-div h2 span {
+    color: #f70105;
+    text-transform: uppercase;
+}
+
+/* Inner Invoice */
+div.pdf-inner {
+    margin: 40px 0;
+}
+
+div.pdf-inner-invoice {
+    margin: 10px 0;
+}
+
+div.pdf-inner ul {
+    text-decoration: none;
+    padding-left: 0px;
+    list-style: none;
+}
+
+div.pdf-inner table.pdf-inner-table {
+    width: 100%;
+}
+
+div.pdf-inner table.pdf-inner-table tr.pdf-inner-tr {
+    margin: 0px;
+    font-size: 17px;
+    width: 100%;
+}
+
+div.pdf-inner table.pdf-inner-table tr.pdf-inner-tr > td.pdf-inner-td-title {
+    width: 250px;
+}
+
+div.pdf-inner table.pdf-inner-table tr.pdf-inner-tr > td.pdf-inner-td-value {
+    /* width: 900px; */
+    font-weight: 200 !important;
+}
+
+table.pdf-meeting-m {
+    margin-top: 20px;
+}
+
+.pdf-inner-td-title > span {
+    font-weight: bold;
+    color: #000000;
+}
+
+.pdf-inner-td-value > span {
+    font-weight: 200 !important;
+    color: #272626;
+}
+
+div.pdf-inner ul li > div.pdf-inner-div p {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
+div.pdf-inner ul li > div.pdf-inner-div p .pdf-inner-span-two {
+    font-weight: 200;
+    padding-left: 5%;
+}
+
+/* Inner Body */
+div.pdf-inner-invoice-body {
+    margin-left: 0.5%;
+}
+
+div.pdf-inner div.pdf-inner-body p.pdf-inner-body-p {
+    margin: 0px;
+    margin-top: 80px;
+    font-size: 18px;
+    font-weight: 100;
+    color: #000000;
+}
+
+div.pdf-meeting-body p.pdf-inner-body-p {
+    margin-top: 15px !important;
+    color: #343232 !important;
+    font-size: 13px !important;
+    font-weight: 100 !important;
+}
+
+div.pdf-inner div.pdf-inner-invitation-body {
+    margin-top: 5px !important;
+}
+
+div.pdf-inner-invitation-body p.pdf-inner-body-p {
+    margin: 5px 0 20px !important;
+    font-size: 13px !important;
+    font-weight: 100 !important;
+    color: #404040 !important;
+}
+
+div.pdf-inner-invitation-body p.pdf-inner-body-p span {
+    font-size: 13px !important;
+    font-weight: bold !important;
+    color: #000 !important;
+    font-style: italic !important;
+}
+
+/* Footer */
+.pdf-footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 11px;
+}
+
+.pdf-signature img {
+    width: 16%;
+}
+
+.pdf-margin-invoice {
+    margin-top: 0% !important;
+    position: inherit !important;
+}
+
+/* Keep the footer at the bottom */
+.pdf-footer,
+.pdf-margin-invoice {
+    position: fixed !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    height: 50px !important;
+}
+
+/* Set this to page 2 */
+.page-break {
+    margin-top: 5%;
+    page-break-before: always;
+}
+
+/* Keep the footer only on page 1 */
+@page {
+    margin: 0;
+}
+
+@page: first {
+    .page-break {
+        page-break-before: auto;
+    }
+}

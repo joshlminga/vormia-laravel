@@ -1,0 +1,100 @@
+// Include Color
+@import "_incl/colors";
+// Include
+@import "_incl/incl";
+// Pre Functions
+@import "_incl/func";
+
+/**
+** Todo:
+** 1: Vormia Includes
+*/
+@include colorsCode();
+@include marginSet();
+@include paddingSet();
+@include required();
+
+@include bagdesName();
+@include date-picker();
+@include select2();
+// @include boostrap-select();
+
+/***
+** Todo: Login Banner
+*/
+body.login-pg {
+    background-image: url("../img/login/south.jpeg") !important;
+
+    .bg-login {
+        background-image: none !important;
+    }
+}
+
+.bg-login-overlay {
+    position: absolute;
+    background: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(#273c9c),
+        to(#30aeef)
+    );
+    background: linear-gradient(to right, #30aeef, #1c2654);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 50% 50%;
+    opacity: 0.8;
+}
+
+// Error
+span.error,
+p.error,
+span.error > p {
+    font-size: 12px;
+    font-weight: 400;
+    color: color(red);
+    font-style: italic;
+}
+
+.alert-danger {
+    color: color(white) !important;
+    background-color: color(red) !important;
+    border-color: color(red) !important;
+
+    button.close {
+        span {
+            color: color(white) !important;
+        }
+    }
+}
+
+/** BOOTSTRAP 4 */
+.btn-danger {
+    background-color: color(red) !important;
+    border-color: color(red) !important;
+
+    &:hover {
+        background-color: #bb0c02 !important;
+        border-color: #bb0c02 !important;
+    }
+}
+
+.btn-warning {
+    background-color: color(orange) !important;
+    border-color: color(orange) !important;
+
+    &:hover {
+        background-color: #eeb902 !important;
+        border-color: #eeb902 !important;
+    }
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: #dadada !important;
+    opacity: 0.5;
+}
